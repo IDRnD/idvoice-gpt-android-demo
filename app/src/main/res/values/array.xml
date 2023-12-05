@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_names">
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>한국어 (Korean)</item>
+        <item>中国人 (Simplified Chinese)</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>en-US</item>
+        <item>es-ES</item>
+        <item>pt-PT</item>
+        <item>ko-KR</item>
+        <item>zh-CN</item>
+    </string-array>
+
+</resources>

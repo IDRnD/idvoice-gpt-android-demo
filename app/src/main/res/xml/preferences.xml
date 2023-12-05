@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/app">
+
+        <SwitchPreference
+            app:defaultValue="true"
+            app:icon="@drawable/baseline_water_24"
+            app:key="@string/preference_haptic_feedback_key"
+            app:title="@string/haptic_feedback" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/speech">
+
+        <DropDownPreference
+            app:entries="@array/language_names"
+            app:entryValues="@array/language_values"
+            app:icon="@drawable/baseline_language_24"
+            app:key="@string/preference_language_key"
+            app:summary="%s"
+            app:title="@string/language" />
+
+        <SwitchPreference
+            app:defaultValue="true"
+            app:icon="@drawable/baseline_stream_24"
+            app:key="@string/preference_is_check_liveness_key"
+            app:title="@string/check_liveness" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/api_key">
+
+        <EditTextPreference
+            app:icon="@drawable/baseline_key_24"
+            app:key="@string/preference_open_ai_key"
+            app:useSimpleSummaryProvider="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

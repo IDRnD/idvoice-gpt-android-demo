@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name" translatable="false">VoiceChatGPT</string>
+    <string name="action_settings" translatable="false">settings</string>
+    <string name="action_refresh" translatable="false">refresh</string>
+    <string name="action_history" translatable="false">history</string>
+    <string name="talk_to_chat_gpt">Talk to Chat GPT</string>
+    <string name="begin_by_recording_your_first_message">Begin by recording your first message.</string>
+    <string name="an_error_occurred_please_try_again">An error occurred</string>
+    <string name="listening">(Listening…)</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="app">APP</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="speech">SPEECH</string>
+    <string name="language">Language</string>
+    <string name="check_liveness">Check Liveness</string>
+    <string name="api_key">API KEY</string>
+    <string name="rationale_message">Please grant audio recording permissions to enable the application to work. Otherwise the app won´t work properly</string>
+    <string name="permission_not_granted">This application needs audio recording permissions to work. Please grant the required permissions.</string>
+
+    <string name="match_failure_1">&#128274; Verification Failed. Sorry, your voice is not a match. I am not allowed to speak with strangers.</string>
+    <string name="match_failure_2">&#128274; Verification Failed. Sorry, new voice. I can’t chat with strangers.</string>
+    <string name="match_failure_3">&#128274; Verification Failed. Sorry, not set for stranger chats, my friend.</string>
+    <string name="match_failure_4">&#128274; Verification Failed. Sorry, sticking to safety! No stranger chats.</string>
+    <string name="match_failure_5">&#128274; Verification Failed. Sorry, unfamiliar voice! You are not on the chat list.</string>
+    <string name="match_failure_6">&#128274; Verification Failed. Sorry, unauthorized voice! Access denied!</string>
+
+    <string name="liveness_failure_1">&#129302; Replay Detected. Good try, but I only talk to humans</string>
+    <string name="liveness_failure_2">&#129302; Replay Detected. You\'ll need to try harder than that, I am the best product in the market</string>
+    <string name="liveness_failure_3">&#129302; Replay Detected. You are making this too easy, I only talk to humans</string>
+    <string name="title" translatable="false">IDVoiceGPT</string>
+    <string name="lorem_ipsum_chat" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at dapibus sem. Vestibulum vel interdum mauris. Aenean nisi erat, ultricies pellentesque tortor eget, finibus porttitor nibh.</string>
+    <string name="permission_required">Permission required</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="close">Close</string>
+    <string name="access_token_is_null">Access token is null or expired. Ignoring request.</string>
+    <string name="api_not_ready">API not ready. Ignoring the request.</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="api_call_error" translatable="false">There was an API error. Please check internet connection and try again</string>
+    
+    <string name="preference_open_ai_key" translatable="false">preference_open_ai_key</string>
+    <string name="preference_haptic_feedback_key" translatable="false">preference_haptic_feedback_key</string>
+    <string name="preference_is_check_liveness_key" translatable="false">preference_is_check_liveness_key</string>
+    <string name="preference_language_key" translatable="false">preference_language_key</string>
+
+    <string name="please_check_your_connectivity_and_try_again">Please check your connectivity and try again</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="operation_interrupted">Operation interrupted, probably timeout occurred</string>
+    <string name="invalid_open_ai_key">Invalid OpenAI key</string>
+
+    <string name="gpt_system_message_content" translatable="false">You are a helpful assistant that answers fast and short!</string>
+    <string name="generation_exceeded_max_tokens">Generation exceeded max_tokens or the conversation exceeded the max context length.</string>
+    <string name="error_while_recording_voice">Error while recording voice</string>
+    <string name="error_while_recognizing_voice">Error while recognizing voice</string>
+    <string name="error_while_sending_question">Error while sending question</string>
+
+</resources>

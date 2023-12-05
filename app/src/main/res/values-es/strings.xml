@@ -1,0 +1,45 @@
+<resources>
+    <string name="talk_to_chat_gpt">Habla con Chat GPT</string>
+    <string name="begin_by_recording_your_first_message">Inicia grabando un mensaje.</string>
+    <string name="an_error_occurred_please_try_again">Sucedió un error</string>
+    <string name="listening">(Escuchando…)</string>
+    <string name="history">Histórico</string>
+    <string name="settings">Configuración</string>
+    <string name="refresh">Refrescar</string>
+    <string name="app">APP</string>
+    <string name="haptic_feedback">Reacción háptica</string>
+    <string name="speech">VOZ</string>
+    <string name="language">Lenguaje</string>
+    <string name="check_liveness">Comprobar vivacidad</string>
+    <string name="api_key">CLAVE API</string>
+    <string name="rationale_message">Otorgue permisos de grabación de audio para permitir que la aplicación funcione. De lo contrario, la aplicación no funcionará correctamente.</string>
+    <string name="permission_not_granted">Esta aplicación necesita permisos de grabación de audio para funcionar. Por favor conceda los permisos requeridos.</string>
+
+    <string name="match_failure_1">&#128274; Falló la verificación. Lo siento, tu voz no coincide. No se me permite hablar con extraños.</string>
+    <string name="match_failure_2">&#128274; Falló la verificación. Lo siento, no tengo registro de tu voz. No puedo conversar con extraños.</string>
+    <string name="match_failure_3">&#128274; Falló la verificación. Lo siento, no estoy configurad@ para chats con extraños, amig@.</string>
+    <string name="match_failure_4">&#128274; Falló la verificación. ¡Lo siento, soy una herramienta segura! No mantengo conversaciones con extraños.</string>
+    <string name="match_failure_5">&#128274; Falló la verificación. ¡Lo siento, voz desconocida! No estás en la lista de chat.</string>
+    <string name="match_failure_6">&#128274; Falló la verificación. ¡Lo siento, voz no autorizada! ¡Acceso denegado!</string>
+
+    <string name="liveness_failure_1">&#129302; Repetición Detectada. Buen intento, pero solo hablo con humanos.</string>
+    <string name="liveness_failure_2">&#129302; Repetición Detectada. Debes volver a internarlo, soy el mejor producto del mercado.</string>
+    <string name="liveness_failure_3">&#129302; Repetición Detectada. Lo estas haciendo demasiado fácil. Solo hablo con humanos.</string>
+    <string name="permission_required">Permiso requerido</string>
+    <string name="dismiss">Descartar</string>
+    <string name="go_to_settings">Ir a Configuraciones</string>
+    <string name="close">Cerrar</string>
+    <string name="access_token_is_null">El token de acceso es nulo o ha caducado. Omitiendo solicitud</string>
+    <string name="api_not_ready">La API no está lista. Omitiendo la solicitud.</string>
+    <string name="no_internet_connection">Sin conexión a Internet</string>
+
+    <string name="please_check_your_connectivity_and_try_again">Por favor verifique su conectividad e inténtelo nuevamente.</string>
+    <string name="connection_error">Error de conexión</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="operation_interrupted">Operación interrumpida, probablemente se agotó el tiempo de espera</string>
+    <string name="invalid_open_ai_key">Clave OpenAI no válida</string>
+    <string name="generation_exceeded_max_tokens">La generación excedió max_tokens o la conversación excedió la longitud máxima del contexto.</string>
+    <string name="error_while_recording_voice">Error al grabar voz</string>
+    <string name="error_while_recognizing_voice">Error al reconocer la voz</string>
+    <string name="error_while_sending_question">Error al enviar la pregunta</string>
+</resources>
